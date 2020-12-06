@@ -1,0 +1,8 @@
+Links_small_titles = //h2[@style="font-size: 17px; line-height: 21px;"]/a/@href 
+Links_big_titles = //h2[@style="font-size: 36px; line-height: 40px;"]/a/@href
+
+Small_titles = //h2[@style="font-size: 17px; line-height: 21px;"]/a/text()
+Big_titles = //h2[@style="font-size: 36px; line-height: 40px;"]/a/text()
+
+Summary = //div[@class="lead"]/p/text()
+Content = //div[@class="html-content"]/p[not(@class)]/text()
